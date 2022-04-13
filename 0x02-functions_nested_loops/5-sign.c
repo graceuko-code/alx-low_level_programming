@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include <limit.h>
+#include "main.h"
 
 /**
  * print_sign - Prints the sign of a number.
@@ -8,7 +9,7 @@
  *         0 if the number is zero,
  *         -1 if the number is less than zero.
  */
-int print_sign(int n)
+int main(void)
 {
 	if (n > 0)
 	{
