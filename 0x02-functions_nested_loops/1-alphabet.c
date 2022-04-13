@@ -3,7 +3,7 @@
  * Auth:Grace uko
  */
 
-#include "holberton.h"
+#include "stdio.c"
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
@@ -17,3 +17,4 @@ _putchar(letter);
 
 _putchar('\n');
 }
+
