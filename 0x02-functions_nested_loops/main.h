@@ -8,3 +8,5 @@
  */
 int _putchar(char c);
 int _putchar(void);
+int _islower(int c);
+
