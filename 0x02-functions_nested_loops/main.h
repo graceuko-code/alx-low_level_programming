@@ -1,14 +1,10 @@
-#include "holberton.h"
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
 /**
  * main - Entry Point
  *
- * Return: always 0 (Success)
+ * file containing all the header file in 0x02-functions_nested_loops
  */
-int main(void)
-{
-	print_alphabet();
-
-return (0);
-}
-
+int _putchar(char c);
+int _putchar(void);
