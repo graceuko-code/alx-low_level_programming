@@ -1,11 +1,7 @@
-/*
- * File: 7-print_tebahpla.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 
 /**
+* File: 7-print_tebahpla.c
  * main - Prints the lowercase alphabet in reverse.
  *
  * Return: Always 0.

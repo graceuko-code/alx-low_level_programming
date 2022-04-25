@@ -1,11 +1,7 @@
-/*
- * File: 3-print_alphabets.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 
 /**
+ * File: 3-print_alphabets.c
  * main - Prints the alphabet in lowercase, and then in uppercase.
  *
  * Return: Always 0.
