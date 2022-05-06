@@ -1,22 +1,15 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- * @argc: Qty of parameters
- * @argv: The parameters themselves
+ * main - Prints the number of arguments passed to it.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
- * Return: 1 if no parameters, 0 if parameter are OK.
+ * Return: Zero
  */
-int main(int argc, char **argv)
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-	if (**argv == 0 || argc < 1)
-		return (1);
-	argc--;
-	do {
-		_putchar((argc % 10) + 48);
-		argc = argc / 10;
-	} while (argc > 0);
-	_putchar('\n');
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
